@@ -1,0 +1,48 @@
+body{
+    background-color: #083b4c;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    margin: 10 auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.square{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue{
+    background-color: #1389b2;
+}
+
+.green{
+    background-color: #0cd6a1;
+}
+
+.yellow{
+    background-color: #ffd166;
+}
+
+.pink{
+    background-color: #f0466f;
+}
